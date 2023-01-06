@@ -1,0 +1,8 @@
+/node_modules/*
+/changzhi/*
+/changzhi.pub/*
+/unpackage/*
+!/unpackage/res/*
+/.idea/*
+/.hbuilderx/*
+/h5-prod/
