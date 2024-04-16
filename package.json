@@ -1,11 +1,11 @@
 {
-  "name": "wdy-cli",
-  "version": "1.0.0",
+  "name": "wdy-fe-cli",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "bin": {
-    "wdy": "./bin/wdy",
-    "wdy-cli": "./bin/wdy"
+    "fecli": "./bin/wdy",
+    "wdy-fe-cli": "./bin/wdy"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,13 +16,14 @@
     "lib"
   ],
   "keywords": [
+    "wdy-fe",
+    "fe-cli",
     "cli",
-    "zc-cli",
     "脚手架"
   ],
   "author": {
-    "name": "mlyz-wdy",
-    "email": "mlyz.wdy@qq.com"
+    "name": "is.wangdy",
+    "email": "is.wangdy@foxmail.com"
   },
   "license": "ISC",
   "dependencies": {
@@ -33,7 +34,7 @@
     "figlet": "^1.5.2",
     "fs-extra": "^10.0.1",
     "inquirer": "^8.2.1",
-    "ora": "^5.0.0"
-  },
-  "devDependencies": {}
+    "ora": "^5.0.0",
+    "wdy-fe-cli": "^1.0.1"
+  }
 }
